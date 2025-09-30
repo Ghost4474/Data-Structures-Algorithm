@@ -4,7 +4,7 @@ https://github.com/Ghost4474/Data-Structures-Algorithm/releases
 
 [![Downloads](https://img.shields.io/badge/Downloads-Release%20Assets-blue?logo=github&logoColor=white)](https://github.com/Ghost4474/Data-Structures-Algorithm/releases)
 
-Welcome to a practical, well-organized collection of C++ data structures and algorithms. This repository focuses on clarity, real-world usage, and tight links to LeetCode problems. It’s designed for learners who want hands-on coding practice, interview prep, and a single, reliable resource to reference when building and testing solutions.
+Welcome to a practical and well-organized collection of C++ data structures and algorithms. This repository focuses on clarity, real-world usage, and tight links to LeetCode problems. It’s designed for learners who want hands-on coding practice, interview prep, and a single, reliable resource to reference when building and testing solutions.
 
 Below is a detailed guide to navigate, use, and contribute to this project. The emphasis is on approachable explanations, concrete examples, and a structure that makes it easy to find and reuse code across topics.
 
@@ -38,7 +38,7 @@ What this repository covers
 Why this repository exists
 - Clarity and practicality: code is organized for quick reading, easy reuse, and straightforward testing. Explanations accompany code, focusing on the “why” behind the approach.
 - Interview readiness: the collection emphasizes common patterns seen in interviews and on LeetCode, with explanations that help you articulate your reasoning.
-- Hands-on learning: examples are designed to be runnable with minimal boilerplate. You can drop snippets into your own projects and extend them as needed.
+- Hands-on learning: examples are designed to run with minimal boilerplate. You can drop snippets into your own projects and extend them as needed.
 - Consistent style: a single, coherent coding and documentation style across topics makes it easier to learn and compare ideas.
 
 How to get started
