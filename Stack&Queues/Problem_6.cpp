@@ -11,7 +11,7 @@ vector<int> asteroidcollisions(vector<int>asteroids){
             while(!res.empty() && res.back() > 0 && res.back() < abs(asteroids[i])){
                 res.pop_back();
             }
-            if(!res.empty() && res.back() + asteroid[i] == 0){
+            if(!res.empty() && res.back() + asteroids[i] == 0){
                 res.pop_back();
             }
             else if(res.empty() || res.back() < 0){
@@ -23,7 +23,11 @@ vector<int> asteroidcollisions(vector<int>asteroids){
 }
 int main(){
     vector<int> asteroids = {5,10,-5};
-    vector<int> result = asteroidcollisions(vector<int> asteroids);
-    cout<<"The result of the asteroid_collision is"<<result;
+    vector<int> result = asteroidcollisions(asteroids);
+    cout<<"The result of the asteroid_collision is ";
+    for(auto i:result)
+    {
+        cout<<i<<" ";
+    }cout<<endl;
     return 0;
 }
