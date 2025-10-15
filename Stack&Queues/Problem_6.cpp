@@ -22,12 +22,17 @@ vector<int> asteroidcollisions(vector<int>asteroids){
     return res;
 }
 int main(){
-    vector<int> asteroids = {5,10,-5};
+    int n;
+    cout<<"Enter the number of asteroids: ";
+    cin>>n;
+    vector<int> asteroids(n);
+    cout<<"Enter the asteroids: ";
+    for(int i=0; i<n; i++){
+        cin>>asteroids[i];
+    }
     vector<int> result = asteroidcollisions(asteroids);
     cout<<"The result of the asteroid_collision is ";
-    for(auto i:result)
-    {
-        cout<<i<<" ";
-    }cout<<endl;
+    for(auto i:result) cout<<i<<" ";
+    cout<<endl;
     return 0;
 }
