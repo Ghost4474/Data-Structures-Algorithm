@@ -1,0 +1,52 @@
+
+void merge (int arr[], int l , int r, int mid) {
+
+    int s1 = l;
+    int e1 = mid;
+    int s2 = mid+1;
+    int e2 = r;
+
+    if(s1>e1 || s2>e2)
+        return;
+
+    int i = s1;
+    int j = s2;
+
+    int output[r-l+1];
+    int k=0;
+    while(i<=e1 && j<=e2) {
+        if(arr[i] > arr[j]) {
+            output[k++] = arr[j++];
+        }
+        else {
+            output[k++] = arr[i++];
+        }
+    }
+
+    while(i<=e1) {
+        output[k++] = arr[i++];
+    }
+
+    while(j<=e2) {
+        output[k++] = arr[j++];
+    }
+    k=0;
+    for(int q=l;q<=r;q++) {
+        arr[q] = output[k++];
+    }
+
+}
+
+void mergeSort(int arr[], int l, int r) {
+    // Write Your Code Here
+    if(r<=l)
+        return;
+
+    int mid = (l+r)/2;
+
+    mergeSort(arr, l, mid);
+    mergeSort(arr, mid+1, r);
+
+    merge(arr, l, r, mid);
+
+}
